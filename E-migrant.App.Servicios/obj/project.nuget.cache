@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "+gX9sDn8G8gR6YtWHyRuXeYhjUrRueayKOVjk3Ex4BnIcSbvqAHqjTg8w8gMjnES+Vjs7E4pzlFQjGM/5TMPvQ==",
+  "success": true,
+  "projectFilePath": "/home/oscar/Hackaton/E-migrant.App.Servicios/E-migrant.App.Servicios.csproj",
+  "expectedPackageFiles": [
+    "/home/oscar/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/home/oscar/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/home/oscar/.nuget/packages/swashbuckle.aspnetcore/5.6.3/swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "/home/oscar/.nuget/packages/swashbuckle.aspnetcore.swagger/5.6.3/swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "/home/oscar/.nuget/packages/swashbuckle.aspnetcore.swaggergen/5.6.3/swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "/home/oscar/.nuget/packages/swashbuckle.aspnetcore.swaggerui/5.6.3/swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
