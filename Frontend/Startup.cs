@@ -28,6 +28,8 @@ namespace Frontend
         {
             services.AddRazorPages();
             services.AddScoped<IRepositorioMigrante,RepositorioMigrante>();
+            services.AddScoped<IRepositorioEntidad,RepositorioEntidad>();
+            services.AddScoped<IRepositorioServicio,RepositorioServicio>();
             services.AddDbContext<AplicationContext>(options => options.UseSqlServer(connectionString));
             services.AddControllersWithViews();
         }

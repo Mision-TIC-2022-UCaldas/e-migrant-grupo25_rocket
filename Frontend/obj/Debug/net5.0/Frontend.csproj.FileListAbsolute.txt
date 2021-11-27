@@ -181,3 +181,4 @@ C:\hackaton\e-migrant-grupo25_rocket\Frontend\obj\Debug\net5.0\Razor\Pages\Migra
 C:\hackaton\e-migrant-grupo25_rocket\Frontend\obj\Debug\net5.0\Razor\Pages\Migrante\EditMigrante.cshtml.g.cs
 C:\hackaton\e-migrant-grupo25_rocket\Frontend\obj\Debug\net5.0\Razor\Pages\Migrante\ListMigrante.cshtml.g.cs
 >>>>>>> Stashed changes
+C:\hackaton\e-migrant-grupo25_rocket\Frontend\obj\Debug\net5.0\Razor\Pages\Entidad\CreateEntidad.cshtml.g.cs
