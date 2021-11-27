@@ -5814,19 +5814,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jhono\\.nuget\\packages\\": {}
+    "/home/oscar/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\hackaton\\e-migrant-grupo25_rocket\\Persistencia\\Persistencia.csproj",
+      "projectUniqueName": "/home/oscar/Hackaton/Persistencia/Persistencia.csproj",
       "projectName": "Persistencia",
-      "projectPath": "C:\\hackaton\\e-migrant-grupo25_rocket\\Persistencia\\Persistencia.csproj",
-      "packagesPath": "C:\\Users\\jhono\\.nuget\\packages\\",
-      "outputPath": "C:\\hackaton\\e-migrant-grupo25_rocket\\Persistencia\\obj\\",
+      "projectPath": "/home/oscar/Hackaton/Persistencia/Persistencia.csproj",
+      "packagesPath": "/home/oscar/.nuget/packages/",
+      "outputPath": "/home/oscar/Hackaton/Persistencia/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\jhono\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/oscar/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -5838,8 +5838,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\hackaton\\e-migrant-grupo25_rocket\\Dominio\\Dominio.csproj": {
-              "projectPath": "C:\\hackaton\\e-migrant-grupo25_rocket\\Dominio\\Dominio.csproj"
+            "/home/oscar/Hackaton/Dominio/Dominio.csproj": {
+              "projectPath": "/home/oscar/Hackaton/Dominio/Dominio.csproj"
             }
           }
         }
@@ -5886,7 +5886,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.403/RuntimeIdentifierGraph.json"
       }
     }
   }

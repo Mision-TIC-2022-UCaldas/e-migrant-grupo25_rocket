@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\hackaton\\e-migrant-grupo25_rocket\\Dominio\\Dominio.csproj": {}
+    "/home/oscar/Hackaton/Dominio/Dominio.csproj": {}
   },
   "projects": {
-    "C:\\hackaton\\e-migrant-grupo25_rocket\\Dominio\\Dominio.csproj": {
+    "/home/oscar/Hackaton/Dominio/Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\hackaton\\e-migrant-grupo25_rocket\\Dominio\\Dominio.csproj",
+        "projectUniqueName": "/home/oscar/Hackaton/Dominio/Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "C:\\hackaton\\e-migrant-grupo25_rocket\\Dominio\\Dominio.csproj",
-        "packagesPath": "C:\\Users\\jhono\\.nuget\\packages\\",
-        "outputPath": "C:\\hackaton\\e-migrant-grupo25_rocket\\Dominio\\obj\\",
+        "projectPath": "/home/oscar/Hackaton/Dominio/Dominio.csproj",
+        "packagesPath": "/home/oscar/.nuget/packages/",
+        "outputPath": "/home/oscar/Hackaton/Dominio/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jhono\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/oscar/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.403/RuntimeIdentifierGraph.json"
         }
       }
     }
