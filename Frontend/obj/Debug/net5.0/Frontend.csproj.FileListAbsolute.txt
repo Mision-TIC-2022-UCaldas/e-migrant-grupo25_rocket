@@ -159,6 +159,7 @@ C:\hackaton\e-migrant-grupo25_rocket\Frontend\bin\Debug\net5.0\zh-Hans\Microsoft
 C:\hackaton\e-migrant-grupo25_rocket\Frontend\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\hackaton\e-migrant-grupo25_rocket\Frontend\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 C:\hackaton\e-migrant-grupo25_rocket\Frontend\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+<<<<<<< Updated upstream
 C:\hackaton\e-migrant-grupo25_rocket\Frontend\bin\Debug\net5.0\publish\web.config
 C:\hackaton\e-migrant-grupo25_rocket\Frontend\bin\Debug\net5.0\publish\appsettings.Development.json
 C:\hackaton\e-migrant-grupo25_rocket\Frontend\bin\Debug\net5.0\publish\appsettings.json
@@ -174,3 +175,9 @@ C:\hackaton\e-migrant-grupo25_rocket\Frontend\bin\Debug\net5.0\publish\publish\p
 C:\hackaton\e-migrant-grupo25_rocket\Frontend\bin\Debug\net5.0\publish\publish\publish\appsettings.json
 C:\hackaton\e-migrant-grupo25_rocket\Frontend\bin\Debug\net5.0\publish\publish\publish\Frontend.deps.json
 C:\hackaton\e-migrant-grupo25_rocket\Frontend\bin\Debug\net5.0\publish\publish\publish\Frontend.runtimeconfig.json
+=======
+C:\hackaton\e-migrant-grupo25_rocket\Frontend\obj\Debug\net5.0\Razor\Pages\Migrante\DeleteMigrante.cshtml.g.cs
+C:\hackaton\e-migrant-grupo25_rocket\Frontend\obj\Debug\net5.0\Razor\Pages\Migrante\DetailsMigrante.cshtml.g.cs
+C:\hackaton\e-migrant-grupo25_rocket\Frontend\obj\Debug\net5.0\Razor\Pages\Migrante\EditMigrante.cshtml.g.cs
+C:\hackaton\e-migrant-grupo25_rocket\Frontend\obj\Debug\net5.0\Razor\Pages\Migrante\ListMigrante.cshtml.g.cs
+>>>>>>> Stashed changes
