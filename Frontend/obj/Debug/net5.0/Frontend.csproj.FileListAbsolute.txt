@@ -169,3 +169,8 @@ C:\hackaton\e-migrant-grupo25_rocket\Frontend\bin\Debug\net5.0\publish\publish\a
 C:\hackaton\e-migrant-grupo25_rocket\Frontend\bin\Debug\net5.0\publish\publish\appsettings.json
 C:\hackaton\e-migrant-grupo25_rocket\Frontend\bin\Debug\net5.0\publish\publish\Frontend.deps.json
 C:\hackaton\e-migrant-grupo25_rocket\Frontend\bin\Debug\net5.0\publish\publish\Frontend.runtimeconfig.json
+C:\hackaton\e-migrant-grupo25_rocket\Frontend\bin\Debug\net5.0\publish\publish\publish\web.config
+C:\hackaton\e-migrant-grupo25_rocket\Frontend\bin\Debug\net5.0\publish\publish\publish\appsettings.Development.json
+C:\hackaton\e-migrant-grupo25_rocket\Frontend\bin\Debug\net5.0\publish\publish\publish\appsettings.json
+C:\hackaton\e-migrant-grupo25_rocket\Frontend\bin\Debug\net5.0\publish\publish\publish\Frontend.deps.json
+C:\hackaton\e-migrant-grupo25_rocket\Frontend\bin\Debug\net5.0\publish\publish\publish\Frontend.runtimeconfig.json
