@@ -159,3 +159,13 @@ C:\hackaton\e-migrant-grupo25_rocket\Frontend\bin\Debug\net5.0\zh-Hans\Microsoft
 C:\hackaton\e-migrant-grupo25_rocket\Frontend\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\hackaton\e-migrant-grupo25_rocket\Frontend\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 C:\hackaton\e-migrant-grupo25_rocket\Frontend\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\hackaton\e-migrant-grupo25_rocket\Frontend\bin\Debug\net5.0\publish\web.config
+C:\hackaton\e-migrant-grupo25_rocket\Frontend\bin\Debug\net5.0\publish\appsettings.Development.json
+C:\hackaton\e-migrant-grupo25_rocket\Frontend\bin\Debug\net5.0\publish\appsettings.json
+C:\hackaton\e-migrant-grupo25_rocket\Frontend\bin\Debug\net5.0\publish\Frontend.deps.json
+C:\hackaton\e-migrant-grupo25_rocket\Frontend\bin\Debug\net5.0\publish\Frontend.runtimeconfig.json
+C:\hackaton\e-migrant-grupo25_rocket\Frontend\bin\Debug\net5.0\publish\publish\web.config
+C:\hackaton\e-migrant-grupo25_rocket\Frontend\bin\Debug\net5.0\publish\publish\appsettings.Development.json
+C:\hackaton\e-migrant-grupo25_rocket\Frontend\bin\Debug\net5.0\publish\publish\appsettings.json
+C:\hackaton\e-migrant-grupo25_rocket\Frontend\bin\Debug\net5.0\publish\publish\Frontend.deps.json
+C:\hackaton\e-migrant-grupo25_rocket\Frontend\bin\Debug\net5.0\publish\publish\Frontend.runtimeconfig.json
