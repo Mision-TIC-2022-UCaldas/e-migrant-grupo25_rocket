@@ -1,0 +1,35 @@
+﻿@page
+@model MyApp.Namespace.ListMigranteModel
+@{
+}
+<div class="textcenter">
+<h2>Listado de personas</h2>
+<a class="btn btn-dark" asp-page="./CreateMigrante"><i class="fas fa-user-plus"></i></a>
+
+</div>
+<table style="width:100%">
+  <tr>
+    <th>Id</th>  
+    <th>Nombre</th>
+    <th>Apellidos</th>     
+  </tr>
+  @foreach (var migrante in Model.Migrantes)
+  {
+    <tr>
+            <td>@migrante.Documento</td>
+            <td>@migrante.Nombre</td>
+            <td>@migrante.Apellidos</td>   
+            <td><a class="btn btn-dark" asp-page="./DetailsMigrante" asp-route-id="@cliente.Id"><i class="fas fa-info"></i></a></td>                
+                
+            <td><a class="btn btn-dark" asp-page="./EditMigrante" asp-route-id="@cliente.Id"><i class="fas fa-edit"></i></a></td>
+                
+            <td><a class="btn btn-dark" asp-page="./DeleteMigrante" asp-route-id="@cliente.Id"><i class="fas fa-trash-alt"></i></a></td>
+                
+            @* <td><a href="http://www.google.com" target="_blank">google</a></td> *@
+    </tr>
+
+  }
+
+</table>
+
+
