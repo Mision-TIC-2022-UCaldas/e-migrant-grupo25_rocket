@@ -1,0 +1,12 @@
+C:\hackaton\e-migrant-grupo25_rocket\Dominio\bin\Release\net5.0\Dominio.deps.json
+C:\hackaton\e-migrant-grupo25_rocket\Dominio\bin\Release\net5.0\Dominio.dll
+C:\hackaton\e-migrant-grupo25_rocket\Dominio\bin\Release\net5.0\ref\Dominio.dll
+C:\hackaton\e-migrant-grupo25_rocket\Dominio\bin\Release\net5.0\Dominio.pdb
+C:\hackaton\e-migrant-grupo25_rocket\Dominio\obj\Release\net5.0\Dominio.csproj.AssemblyReference.cache
+C:\hackaton\e-migrant-grupo25_rocket\Dominio\obj\Release\net5.0\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\hackaton\e-migrant-grupo25_rocket\Dominio\obj\Release\net5.0\Dominio.AssemblyInfoInputs.cache
+C:\hackaton\e-migrant-grupo25_rocket\Dominio\obj\Release\net5.0\Dominio.AssemblyInfo.cs
+C:\hackaton\e-migrant-grupo25_rocket\Dominio\obj\Release\net5.0\Dominio.csproj.CoreCompileInputs.cache
+C:\hackaton\e-migrant-grupo25_rocket\Dominio\obj\Release\net5.0\Dominio.dll
+C:\hackaton\e-migrant-grupo25_rocket\Dominio\obj\Release\net5.0\ref\Dominio.dll
+C:\hackaton\e-migrant-grupo25_rocket\Dominio\obj\Release\net5.0\Dominio.pdb

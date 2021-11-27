@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/48b326d2-90a2-4cbc-93cb-e4da0da4f5cc/resourceGroups/MisionTIC2022/providers/Microsoft.Web/sites/E-migrant",
+    "appService.deploySubpath": "Frontend\\publish"
+}
