@@ -18,6 +18,6 @@ namespace Dominio
         [Required(ErrorMessage="Por favor ingresa tu pais de "),MaxLength(30)]        
         public string Pais {get; set; }
         [Required(ErrorMessage="Por favor ingresa tu fecha de nacimiento"),MaxLength(10)]        
-        public DateTime FechaNacimiento {get; set; }        
+        public string FechaNacimiento {get; set; }        
     }
 }
