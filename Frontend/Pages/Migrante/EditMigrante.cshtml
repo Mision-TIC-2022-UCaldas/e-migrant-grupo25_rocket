@@ -1,0 +1,94 @@
+﻿@page
+@model MyApp.Namespace.EditMigranteModel
+@{
+    ViewData["Title"] = "Editar Migrante";
+}
+<head>
+    <title>Actualizacion de Migrantes</title>
+    <link rel="stylesheet" href="Empresa.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">   
+</head>
+<body>
+   @* 
+    <div class="main-block">
+      <div class="left-part">       
+        <i class="fas fa-user-astronaut"></i>  
+        <div class="contenedor">
+          <IMG class="resize" SRC="ER_background.jpg"  ALIGN=LEFT HSPACE=100 VSPACE=30>
+          
+         
+          <div class="texto-debajo">
+            <h1>Equipo rocket</h1> 
+          </div>
+         
+        </div>  
+                       
+      </div>
+      
+      <form  method="post" >
+        <div class="title">
+          <i class="fas fa-pencil-alt"></i> 
+          <h2>Registro Informacion Personal</h2>
+        </div>
+        <div class="info">
+          <input asp-for="migrante.Nombre" class="name" type="text" name="Nombre" placeholder="Nombre">
+          <input asp-for="migrante.Apellidos" type="text" name="Apellidos" placeholder="Apellidos">
+          <input asp-for="migrante.TipoDocumento" type="number" name="TipoDocumento" placeholder="Tipo de Documento">
+          <input asp-for="migrante.Documento" type="text" name="Documento" placeholder="Numero de documento de identificacion">
+          <input asp-for="migrante.Pais" type="text" name="Pais" placeholder="Pais de origen">
+          <input asp-for="migrante.FechaNacimiento" type="text" name="FechaNacimiento" placeholder="Fecha de nacimiento">
+          <input asp-for="migrante.Correo" type="text" name="Correo" placeholder="Direccion electronica">
+          <input asp-for="migrante.Telefono" type="text" name="Telefono" placeholder="Numero de telefono">
+          <input asp-for="migrante.Direccion" type="text" name="Direccion" placeholder="Direccion actual">
+          <input asp-for="migrante.Ciudad" type="text" name="Ciudad" placeholder="Ciudad">
+          <input asp-for="migrante.SituacionLaboral" type="text" name="Situacion" placeholder="Situacion laboral">
+             
+
+        <div class="btn-group" align="center">         
+          <input type="submit" value="Crear" class="btn btn-dark" />
+        </div>
+      </form>
+    </div>
+    @* <div><a class="btn btn-dark" asp-page="./List"><i class="fas fa-angle-double-left"></i></a></div>     *@
+    <div class="container mt-5">
+          <div class="row">
+            <div class="col-lg-6 offset-lg-3">
+              <div class="card">
+                <div class="card-body text-center">
+                  <span class="titulo"> ACTUALIZACION DE INFORMACION PERSONAL</span>
+                  <form class="mb-3" method="post"> 
+                    <div class="mb-3">
+                      <input asp-for="migrante.Nombre" type="text" class="form-control mb-3" name="Nombre" placeholder="Nombre" required>                      
+                      <input asp-for="migrante.Apellidos" type="text" class="form-control mb-3" name="Apellidos" placeholder="Apellidos" required>
+                      <select asp-for="migrante.TipoDocumento" class="form-control form-control" name="TipoDocumento" required>
+                        <option selected>Tipo de Documento</option>
+                        <option value="1">Cedula de Ciudadanìa</option>
+                        <option value="2">Cedula de Extranjeria</option>
+                        <option value="3">Tarjeta de Identidad</option>
+                        <option value="3">Pasaporte</option>
+                      </select>
+                      <br>
+                      @*<input asp-for="migrante.TipoDocumento" type="number" class="form-control mb-3" name="TipoDocumento" placeholder="Tipo de Documento">*@
+                      <input asp-for="migrante.Documento" type="text" class="form-control mb-3" name="Documento" placeholder="Numero de documento de identificacion" required>
+                      <input asp-for="migrante.Pais" type="text" class="form-control mb-3" name="Pais" placeholder="Pais de origen" required>
+                      <input asp-for="migrante.FechaNacimiento" type="text" class="form-control mb-3" name="FechaNacimiento" placeholder="Fecha de nacimiento" required>
+                      <input asp-for="migrante.Correo" type="text" class="form-control mb-3" name="Correo" placeholder="Direccion electronica">
+                      <input asp-for="migrante.Telefono" type="text" class="form-control mb-3" name="Telefono" placeholder="Numero de telefono">
+                      <input asp-for="migrante.Direccion" type="text" class="form-control mb-3" name="Direccion" placeholder="Direccion actual">
+                      <input asp-for="migrante.Ciudad" type="text" class="form-control mb-3" name="Ciudad" placeholder="Ciudad">
+                      <input asp-for="migrante.SituacionLaboral" type="text" class="form-control mb-3" name="Situacion" placeholder="Situacion laboral">
+                    </div>
+                    <div class="mb-3">
+                      
+                      <button type="submit" class="btn btn-success btn-lg float-end">ACEPTAR</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>>
+</body> 
+
+

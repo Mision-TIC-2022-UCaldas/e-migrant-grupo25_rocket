@@ -1,0 +1,59 @@
+﻿@page
+@model MyApp.Namespace.DetailsMigranteModel
+@{
+}
+<h1>Detalle de Informacion Personal</h1>
+<small>
+</small>
+<div>
+    <div class="row">
+        <dt class="col-md-2">
+            @Html.DisplayNameFor(model => Model.migrante.Id)            
+        </dt>
+        <dd class="col-md-10">
+            @Html.DisplayFor(model => Model.migrante.Id)                        
+        </dd>
+    </div>
+    <div class="row">
+        <dt class="col-md-2">
+            @Html.DisplayNameFor(model => Model.migrante.Nombre)            
+        </dt>
+        <dd class="col-md-10">
+            @Html.DisplayFor(model => Model.migrante.Nombre)                        
+        </dd>
+    </div>
+    <div class="row">
+        <dt class="col-md-2">
+            @Html.DisplayNameFor(model => model.migrante.Apellidos)            
+        </dt>
+        <dd class="col-md-10">
+            @Html.DisplayFor(model => model.migrante.Apellidos)
+        </dd>
+    </div>
+    <div class="row">
+        <dt class="col-md-2">
+            @Html.DisplayNameFor(model => Model.migrante.Telefono)            
+        </dt>
+        <dd class="col-md-10">
+            @Html.DisplayFor(model => Model.migrante.Telefono)
+        </dd>
+    </div>
+    <div class="row">
+        <dt class="col-md-2">
+            @Html.DisplayNameFor(model => model.migrante.TipoDocumento)            
+        </dt>
+        <dd class="col-md-10">
+            @Html.DisplayFor(model => model.migrante.TipoDocumento)
+        </dd>
+    </div>
+    <div class="row">
+        <dt class="col-md-2">
+            @Html.DisplayNameFor(model => model.migrante.Documento)            
+        </dt>
+        <dd class="col-md-10">
+            @Html.DisplayFor(model => model.migrante.Documento)
+        </dd>
+    </div>
+</div>
+<div><a class="btn btn-dark" asp-page="./ListMigrante"><i class="fas fa-angle-double-left"></i></a>
+</div>de Informacion Personal
