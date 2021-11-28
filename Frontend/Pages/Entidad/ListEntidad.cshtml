@@ -1,0 +1,40 @@
+﻿@page
+@model MyApp.Namespace.ListEntidadModel
+@{
+}
+<div class="textcenter">
+<h2>Listado de Entidades</h2>
+<a class="btn btn-dark" asp-page="./CreateEntidad"><i class="fas fa-user-plus"></i></a>
+
+</div>
+<table style="width:100%">
+  <tr>
+    <th>Razon Social</th>  
+    <th>Nit</th>
+    <th>Direccion</th>     
+    <th>Telefono</th>     
+    <th>Detalles</th>     
+    <th>Actualizar</th>     
+  </tr>
+  @foreach (var entidad in Model.Entidades)
+  {
+    <tr>
+            <td>@entidad.RazonSocial</td>
+            <td>@entidad.Nit</td>
+            <td>@entidad.Direccion</td>   
+            <td>@entidad.Telefono</td>  @* //todo falta lista de servicios calificacon obtenida*@
+            <td><a class="btn btn-dark" asp-page="./DetailsEntidad" asp-route-id="@entidad.Id"><i class="fas fa-info"></i></a></td>                
+                
+            <td><a class="btn btn-dark" asp-page="./EditEntidad" asp-route-id="@entidad.Id"><i class="fas fa-edit"></i></a></td>
+                
+           @* <td><a class="btn btn-dark" asp-page="./DeleteEntidad asp-route-id="@entidad.Id"><i class="fas fa-trash-alt"></i></a></td>
+                
+            @* <td><a href="http://www.google.com" target="_blank">google</a></td> *@
+    </tr>
+
+  }
+
+</table>
+
+
+

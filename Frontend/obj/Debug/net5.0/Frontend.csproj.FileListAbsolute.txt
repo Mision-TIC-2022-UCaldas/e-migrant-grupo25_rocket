@@ -182,3 +182,11 @@ C:\hackaton\e-migrant-grupo25_rocket\Frontend\obj\Debug\net5.0\Razor\Pages\Migra
 C:\hackaton\e-migrant-grupo25_rocket\Frontend\obj\Debug\net5.0\Razor\Pages\Migrante\ListMigrante.cshtml.g.cs
 >>>>>>> Stashed changes
 C:\hackaton\e-migrant-grupo25_rocket\Frontend\obj\Debug\net5.0\Razor\Pages\Entidad\CreateEntidad.cshtml.g.cs
+C:\hackaton\e-migrant-grupo25_rocket\Frontend\obj\Debug\net5.0\Razor\Pages\Entidad\DeleteEntidad.cshtml.g.cs
+C:\hackaton\e-migrant-grupo25_rocket\Frontend\obj\Debug\net5.0\Razor\Pages\Entidad\DetailsEntidad.cshtml.g.cs
+C:\hackaton\e-migrant-grupo25_rocket\Frontend\obj\Debug\net5.0\Razor\Pages\Entidad\EditEntidad.cshtml.g.cs
+C:\hackaton\e-migrant-grupo25_rocket\Frontend\obj\Debug\net5.0\Razor\Pages\Entidad\ListEntidad.cshtml.g.cs
+C:\hackaton\e-migrant-grupo25_rocket\Frontend\obj\Debug\net5.0\Razor\Pages\Servicios\CreateServicios.cshtml.g.cs
+C:\hackaton\e-migrant-grupo25_rocket\Frontend\obj\Debug\net5.0\Razor\Pages\Servicios\DetailsServicios.cshtml.g.cs
+C:\hackaton\e-migrant-grupo25_rocket\Frontend\obj\Debug\net5.0\Razor\Pages\Servicios\EditServicios.cshtml.g.cs
+C:\hackaton\e-migrant-grupo25_rocket\Frontend\obj\Debug\net5.0\Razor\Pages\Servicios\ListServicios.cshtml.g.cs

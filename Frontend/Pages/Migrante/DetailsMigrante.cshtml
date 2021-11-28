@@ -1,6 +1,7 @@
 ﻿@page
 @model MyApp.Namespace.DetailsMigranteModel
 @{
+    
 }
 <h1>Detalle de Informacion Personal</h1>
 <small>
@@ -28,6 +29,50 @@
         </dt>
         <dd class="col-md-10">
             @Html.DisplayFor(model => model.migrante.Apellidos)
+        </dd> 
+    </div>   
+    <div class="row">
+        <dt class="col-md-2">
+            @switch (Model.migrante.TipoDocumento)
+            {
+                case 1:<a>Cedula de ciudadania</a>
+                break;             
+                case 2:<a>Cedula de Extranjeria</a>
+                break;
+                case 3:<a>Tarjeta de Identidad</a>
+                break;
+                case 4:<a>Pasaporte</a>
+                break;
+                case 5:<a>Permiso Especial de Permanencia</a>
+                break;                                              
+            }            
+        </dt>
+        <dd class="col-md-10">
+            @Html.DisplayFor(model => model.migrante.Documento)
+        </dd>
+    </div>
+    <div class="row">
+        <dt class="col-md-2">
+            @Html.DisplayNameFor(model => Model.migrante.Pais)            
+        </dt>
+        <dd class="col-md-10">
+            @Html.DisplayFor(model => Model.migrante.Pais)
+        </dd>
+    </div>
+    <div class="row">
+        <dt class="col-md-2">
+            @Html.DisplayNameFor(model => Model.migrante.FechaNacimiento)            
+        </dt>
+        <dd class="col-md-10">
+            @Html.DisplayFor(model => Model.migrante.FechaNacimiento)
+        </dd>
+    </div>
+    <div class="row">
+        <dt class="col-md-2">
+            @Html.DisplayNameFor(model => Model.migrante.Correo)            
+        </dt>
+        <dd class="col-md-10">
+            @Html.DisplayFor(model => Model.migrante.Correo)
         </dd>
     </div>
     <div class="row">
@@ -40,20 +85,28 @@
     </div>
     <div class="row">
         <dt class="col-md-2">
-            @Html.DisplayNameFor(model => model.migrante.TipoDocumento)            
+            @Html.DisplayNameFor(model => Model.migrante.Direccion)            
         </dt>
         <dd class="col-md-10">
-            @Html.DisplayFor(model => model.migrante.TipoDocumento)
+            @Html.DisplayFor(model => Model.migrante.Direccion)
         </dd>
     </div>
     <div class="row">
         <dt class="col-md-2">
-            @Html.DisplayNameFor(model => model.migrante.Documento)            
+            @Html.DisplayNameFor(model => Model.migrante.Ciudad)            
         </dt>
         <dd class="col-md-10">
-            @Html.DisplayFor(model => model.migrante.Documento)
+            @Html.DisplayFor(model => Model.migrante.Ciudad)
         </dd>
     </div>
+    <div class="row">
+        <dt class="col-md-2">
+            @Html.DisplayNameFor(model => Model.migrante.SituacionLaboral)            
+        </dt>
+        <dd class="col-md-10">
+        @Html.DisplayFor(model => Model.migrante.SituacionLaboral)
+        </dd>
+    </div>    
 </div>
 <div><a class="btn btn-dark" asp-page="./ListMigrante"><i class="fas fa-angle-double-left"></i></a>
-</div>de Informacion Personal
+</div>

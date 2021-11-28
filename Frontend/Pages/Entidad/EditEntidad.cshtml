@@ -1,0 +1,105 @@
+﻿@page
+@model MyApp.Namespace.EditEntidadModel
+@{
+    ViewData["Title"] = "Editar Entidad";
+}
+<head>
+    <title>Actualizacion de Entidad</title>
+    <link rel="stylesheet" href="Empresa.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">   
+</head>
+<body>
+   @* 
+    <div class="main-block">
+      <div class="left-part">       
+        <i class="fas fa-user-astronaut"></i>  
+        <div class="contenedor">
+          <IMG class="resize" SRC="ER_background.jpg"  ALIGN=LEFT HSPACE=100 VSPACE=30>
+          
+         
+          <div class="texto-debajo">
+            <h1>Equipo rocket</h1> 
+          </div>
+         
+        </div>  
+                       
+      </div>
+      
+      <form  method="post" >
+        <div class="title">
+          <i class="fas fa-pencil-alt"></i> 
+          <h2>Registro Informacion Personal</h2>
+        </div>
+        <div class="info">
+          <input asp-for="entidad.Nombre" class="name" type="text" name="Nombre" placeholder="Nombre">
+          <input asp-for="entidad.Apellidos" type="text" name="Apellidos" placeholder="Apellidos">
+          <input asp-for="entidad.TipoDocumento" type="number" name="TipoDocumento" placeholder="Tipo de Documento">
+          <input asp-for="entidad.Documento" type="text" name="Documento" placeholder="Numero de documento de identificacion">
+          <input asp-for="entidad.Pais" type="text" name="Pais" placeholder="Pais de origen">
+          <input asp-for="entidad.FechaNacimiento" type="text" name="FechaNacimiento" placeholder="Fecha de nacimiento">
+          <input asp-for="entidad.Correo" type="text" name="Correo" placeholder="Direccion electronica">
+          <input asp-for="entidad.Telefono" type="text" name="Telefono" placeholder="Numero de telefono">
+          <input asp-for="entidad.Direccion" type="text" name="Direccion" placeholder="Direccion actual">
+          <input asp-for="entidad.Ciudad" type="text" name="Ciudad" placeholder="Ciudad">
+          <input asp-for="entidad.SituacionLaboral" type="text" name="Situacion" placeholder="Situacion laboral">
+             
+
+        <div class="btn-group" align="center">         
+          <input type="submit" value="Crear" class="btn btn-dark" />
+        </div>
+      </form>
+    </div>
+    @* <div><a class="btn btn-dark" asp-page="./List"><i class="fas fa-angle-double-left"></i></a></div>     *@
+    <div class="container mt-5">
+          <div class="row">
+            <div class="col-lg-6 offset-lg-3">
+              <div class="card">
+                <div class="card-body text-center">
+                  <span class="titulo"> ACTUALIZACION DE INFORMACION DE LA ENTIDAD</span>
+                  <form class="mb-3" method="post"> 
+                    <div class="mb-3">
+                      <input asp-for="entidad.RazonSocial" type="text" class="form-control mb-3" name="RazonSocial" placeholder="Razon Social" required>                      
+                      <input asp-for="entidad.Nit" type="text" class="form-control mb-3" name="Nit" placeholder="Nit" required>
+                      <input asp-for="entidad.Direccion" type="text" class="form-control mb-3" name="Direccion" placeholder="Direccion">
+                      <input asp-for="entidad.Ciudad" type="text" class="form-control mb-3" name="Ciudad" placeholder="Ciudad">
+                      <input asp-for="entidad.Telefono" type="text" class="form-control mb-3" name="Telefono" placeholder="Numero de telefono">
+                      <input asp-for="entidad.Correo" type="text" class="form-control mb-3" name="Correo" placeholder="Direccion electronica">
+                      <input asp-for="entidad.PaginaWeb" type="text" class="form-control mb-3" name="PaginaWeb" placeholder="Pagina Web">                      
+                      <select asp-for="entidad.Sector" class="form-control form-control" name="Sector" required>
+                        <option selected>Sector</option>
+                        <option value="1">Publico</option>
+                        <option value="2">Privado</option>
+                        <option value="3">Sin animo de lucro</option>
+                        <option value="4">No gubernamental</option>
+                        <option value="5">Otro</option>
+                      </select>
+                      <br>
+                      <select asp-for="entidad.Servicios" class="form-control form-control" name="Servicios" required>
+                        <option selected>Servicios</option>
+                        <option value="1">Salud</option>
+                        <option value="2">Juridicos</option>
+                        <option value="3">Viveres</option>
+                        <option value="4">Comida preparada</option>
+                        <option value="4">Empleo</option>
+                        <option value="5">Alojamiento temporal</option>
+                        <option value="6">Alojamiento permanente</option>
+                        <option value="7">Educacion</option>
+                        <option value="8">Otros</option>                        
+                        </select>
+                        <br>                                                                
+                    </div>
+                    <div class="mb-3">
+                      
+                      <button type="submit" class="btn btn-success btn-lg float-end">ACEPTAR</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>>
+</body> 
+
+
+

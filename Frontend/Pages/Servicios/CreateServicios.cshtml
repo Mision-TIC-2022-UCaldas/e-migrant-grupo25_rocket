@@ -1,0 +1,92 @@
+﻿@page
+@model MyApp.Namespace.CreateServiciosModel
+@{
+}
+<head>
+    <title>Registro de oferta de servicio</title>
+    <link rel="stylesheet" href="Empresa.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+   
+</head>
+<body>
+   @* 
+    <div class="main-block">
+      <div class="left-part">       
+        <i class="fas fa-user-astronaut"></i>  
+        <div class="contenedor">
+          <IMG class="resize" SRC="ER_background.jpg"  ALIGN=LEFT HSPACE=100 VSPACE=30>
+          
+         
+          <div class="texto-debajo">
+            <h1>Equipo rocket</h1> 
+          </div>
+         
+        </div>  
+                       
+      </div>
+      
+      <form  method="post" >
+        <div class="title">
+          <i class="fas fa-pencil-alt"></i> 
+          <h2>Registro Informacion Personal</h2>
+        </div>
+        <div class="info">
+          <input asp-for="servicio.Nombre" class="name" type="text" name="Nombre" placeholder="Nombre">
+          <input asp-for="servicio.Apellidos" type="text" name="Apellidos" placeholder="Apellidos">
+          <input asp-for="servicio.TipoDocumento" type="number" name="TipoDocumento" placeholder="Tipo de Documento">
+          <input asp-for="servicio.Documento" type="text" name="Documento" placeholder="Numero de documento de identificacion">
+          <input asp-for="servicio.Pais" type="text" name="Pais" placeholder="Pais de origen">
+          <input asp-for="servicio.FechaNacimiento" type="text" name="FechaNacimiento" placeholder="Fecha de nacimiento">
+          <input asp-for="servicio.Correo" type="text" name="Correo" placeholder="Direccion electronica">
+          <input asp-for="servicio.Telefono" type="text" name="Telefono" placeholder="Numero de telefono">
+          <input asp-for="servicio.Direccion" type="text" name="Direccion" placeholder="Direccion actual">
+          <input asp-for="servicio.Ciudad" type="text" name="Ciudad" placeholder="Ciudad">
+          <input asp-for="servicio.SituacionLaboral" type="text" name="Situacion" placeholder="Situacion laboral">
+             
+
+        <div class="btn-group" align="center">         
+          <input type="submit" value="Crear" class="btn btn-dark" />
+        </div>
+      </form>
+    </div>
+    @* <div><a class="btn btn-dark" asp-page="./List"><i class="fas fa-angle-double-left"></i></a></div>     *@    
+    <div class="container mt-5">
+            <div class="row">
+            <div class="col-lg-6 offset-lg-3">
+                <div class="card">
+                <div class="card-body text-center">
+                    <span class="titulo"> REGISTRAR OFERTA DE SERVICIOS </span>
+                    <form class="mb-3" method="post"> 
+                    <div class="mb-3">
+                        <input asp-for="servicio.Nit" type="text" class="form-control mb-3" name="Nombre" placeholder="Nit Entidad" required>                      
+                        <input asp-for="servicio.Nombre" type="text" class="form-control mb-3" name="Nombre" placeholder="Nombre del servicio" required>                      
+                        <input asp-for="servicio.NumeroMigrantes" type="text" class="form-control mb-3" name="NumeroMigrantes" placeholder="Maximo numero de migrantes" required>
+                        <input asp-for="servicio.FechaInicio" type="text" class="form-control mb-3" name="FechaInicio" placeholder="dd/MM/yyyy Fecha de Inicio" required>
+                        <input asp-for="servicio.FechaFin" type="text" class="form-control mb-3" name="FechaFin" placeholder="Fecha de finalizacion de la oferta del servicio" required>                        
+                        <select asp-for="servicio.Estado" class="form-control form-control" name="Estado" required>
+                        <option selected>Estado del Servicio</option>
+                        <option value="1">Activos</option>
+                        <option value="2">Cerrados</option>
+                        <option value="3">Con cupo</option>
+                        <option value="4">Sin Cupo</option>                        
+                        </select>
+                        <br>    
+                        @*<label><input type="checkbox" name="check_01" id="check_01" class="check_01" />  Salud</label>*@            
+                                               
+                    </div>
+                    <div class="mb-3">
+                        
+                        <button type="submit" class="btn btn-success btn-lg float-end">ACEPTAR</button>
+                    </div>
+                    </form>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>>
+        
+ </body> 
+
+

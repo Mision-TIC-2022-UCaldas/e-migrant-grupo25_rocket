@@ -1,0 +1,83 @@
+﻿@page
+@model MyApp.Namespace.DetailsEntidadModel
+@{
+}
+<h1>Detalle de Informacion Entidad</h1>
+<small>
+</small>
+<div>
+    <div class="row">
+        <dt class="col-md-2">
+            @Html.DisplayNameFor(model => Model.entidad.Id)            
+        </dt>
+        <dd class="col-md-10">
+            @Html.DisplayFor(model => Model.entidad.Id)                        
+        </dd>
+    </div>
+    <div class="row">
+        <dt class="col-md-2">
+            @Html.DisplayNameFor(model => Model.entidad.RazonSocial)            
+        </dt>
+        <dd class="col-md-10">
+            @Html.DisplayFor(model => Model.entidad.RazonSocial)                        
+        </dd>
+    </div>
+    <div class="row">
+        <dt class="col-md-2">
+            @Html.DisplayNameFor(model => model.entidad.Nit)            
+        </dt>
+        <dd class="col-md-10">
+            @Html.DisplayFor(model => model.entidad.Nit)
+        </dd>
+    </div>
+    <div class="row">
+        <dt class="col-md-2">
+            @Html.DisplayNameFor(model => Model.entidad.Telefono)            
+        </dt>
+        <dd class="col-md-10">
+            @Html.DisplayFor(model => Model.entidad.Telefono)
+        </dd>
+    </div>
+    <div class="row">
+        <dt class="col-md-2">
+            @Html.DisplayNameFor(model => model.entidad.Ciudad)            
+        </dt>
+        <dd class="col-md-10">
+            @Html.DisplayFor(model => model.entidad.Ciudad)
+        </dd>
+    </div>
+    <div class="row">
+        <dt class="col-md-2">
+            @Html.DisplayNameFor(model => model.entidad.Correo)            
+        </dt>
+        <dd class="col-md-10">
+            @Html.DisplayFor(model => model.entidad.Correo)
+        </dd>
+    </div>
+    <div class="row">
+        <dt class="col-md-2">
+            @Html.DisplayNameFor(model => model.entidad.PaginaWeb)            
+        </dt>
+        <dd class="col-md-10">
+            @Html.DisplayFor(model => model.entidad.PaginaWeb)
+        </dd>
+    </div>
+    <div class="row">
+        <dt class="col-md-2">
+            @Html.DisplayNameFor(model => model.entidad.Sector)            
+        </dt>
+        <dd class="col-md-10">
+            @Html.DisplayFor(model => model.entidad.Sector)
+        </dd>
+    </div>
+    <div class="row">
+        <dt class="col-md-2">
+            @Html.DisplayNameFor(model => model.entidad.Servicios)            
+        </dt>
+        <dd class="col-md-10">
+            @Html.DisplayFor(model => model.entidad.Servicios)
+        </dd>
+    </div>
+</div>
+<div><a class="btn btn-dark" asp-page="./Listentidad"><i class="fas fa-angle-double-left"></i></a>
+</div>

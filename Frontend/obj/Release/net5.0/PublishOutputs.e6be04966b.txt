@@ -36,6 +36,7 @@ C:\hackaton\e-migrant-grupo25_rocket\Frontend\publish\wwwroot\lib\jquery\dist\jq
 C:\hackaton\e-migrant-grupo25_rocket\Frontend\publish\wwwroot\lib\jquery\dist\jquery.min.js
 C:\hackaton\e-migrant-grupo25_rocket\Frontend\publish\wwwroot\lib\jquery\dist\jquery.min.map
 C:\hackaton\e-migrant-grupo25_rocket\Frontend\publish\wwwroot\lib\jquery\LICENSE.txt
+C:\hackaton\e-migrant-grupo25_rocket\Frontend\publish\publish\publish\publish\web.config
 C:\hackaton\e-migrant-grupo25_rocket\Frontend\publish\publish\publish\web.config
 C:\hackaton\e-migrant-grupo25_rocket\Frontend\publish\publish\web.config
 C:\hackaton\e-migrant-grupo25_rocket\Frontend\publish\appsettings.Development.json
@@ -48,6 +49,10 @@ C:\hackaton\e-migrant-grupo25_rocket\Frontend\publish\publish\publish\appsetting
 C:\hackaton\e-migrant-grupo25_rocket\Frontend\publish\publish\publish\appsettings.json
 C:\hackaton\e-migrant-grupo25_rocket\Frontend\publish\publish\publish\Frontend.deps.json
 C:\hackaton\e-migrant-grupo25_rocket\Frontend\publish\publish\publish\Frontend.runtimeconfig.json
+C:\hackaton\e-migrant-grupo25_rocket\Frontend\publish\publish\publish\publish\appsettings.Development.json
+C:\hackaton\e-migrant-grupo25_rocket\Frontend\publish\publish\publish\publish\appsettings.json
+C:\hackaton\e-migrant-grupo25_rocket\Frontend\publish\publish\publish\publish\Frontend.deps.json
+C:\hackaton\e-migrant-grupo25_rocket\Frontend\publish\publish\publish\publish\Frontend.runtimeconfig.json
 C:\hackaton\e-migrant-grupo25_rocket\Frontend\publish\Frontend.dll
 C:\hackaton\e-migrant-grupo25_rocket\Frontend\publish\Frontend.deps.json
 C:\hackaton\e-migrant-grupo25_rocket\Frontend\publish\Frontend.runtimeconfig.json

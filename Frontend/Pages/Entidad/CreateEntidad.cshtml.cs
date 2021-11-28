@@ -16,6 +16,7 @@ namespace MyApp.Namespace
         private readonly IRepositorioEntidad _repo;
         public Entidad entidad { get; set;}
         
+        
         public CreateEntidadModel(IRepositorioEntidad repo)
         {
             _repo = repo;

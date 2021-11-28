@@ -1,3 +1,4 @@
+using System.Net;
 using System.IO;
 using System;
 using System.Collections.Generic;
@@ -14,7 +15,7 @@ namespace MyApp.Namespace
     public class CreateMigranteModel : PageModel
     {
         private readonly IRepositorioMigrante _repo;
-        public Migrante migrante { get; set;}
+        public Migrante migrante { get; set;}        
         
         public CreateMigranteModel(IRepositorioMigrante repo)
         {
@@ -24,7 +25,7 @@ namespace MyApp.Namespace
         {
         }
         public void OnPost(Migrante migrante)
-        {   
+        {                   
                 _repo.AddMigrante(migrante);            
         }
         public void Prueba()
