@@ -15,6 +15,7 @@ namespace MyApp.Namespace
     public class CreateMigranteModel : PageModel
     {
         private readonly IRepositorioMigrante _repo;
+        public string Message {get; set;} = "Error";    
         public Migrante migrante { get; set;}        
         
         public CreateMigranteModel(IRepositorioMigrante repo)
@@ -25,8 +26,16 @@ namespace MyApp.Namespace
         {
         }
         public void OnPost(Migrante migrante)
-        {                   
+        {                
+            try{
                 _repo.AddMigrante(migrante);            
+            }
+            catch{
+                Message ="Numero de Documento ya registrado";
+                ViewData["Message"]=Message;
+                Console.WriteLine(Message);
+            }   
+                
         }
         public void Prueba()
         {
