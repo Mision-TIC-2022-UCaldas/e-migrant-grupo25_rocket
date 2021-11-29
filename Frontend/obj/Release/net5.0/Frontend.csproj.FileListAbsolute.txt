@@ -187,3 +187,16 @@ C:\hackaton\e-migrant-grupo25_rocket\Frontend\obj\Release\net5.0\Razor\Pages\Ser
 C:\hackaton\e-migrant-grupo25_rocket\Frontend\obj\Release\net5.0\Razor\Pages\Servicios\DetailsServicios.cshtml.g.cs
 C:\hackaton\e-migrant-grupo25_rocket\Frontend\obj\Release\net5.0\Razor\Pages\Servicios\EditServicios.cshtml.g.cs
 C:\hackaton\e-migrant-grupo25_rocket\Frontend\obj\Release\net5.0\Razor\Pages\Servicios\ListServicios.cshtml.g.cs
+C:\hackaton\e-migrant-grupo25_rocket\Frontend\bin\Release\net5.0\publish\publish\publish\publish\web.config
+C:\hackaton\e-migrant-grupo25_rocket\Frontend\bin\Release\net5.0\publish\publish\publish\publish\appsettings.Development.json
+C:\hackaton\e-migrant-grupo25_rocket\Frontend\bin\Release\net5.0\publish\publish\publish\publish\appsettings.json
+C:\hackaton\e-migrant-grupo25_rocket\Frontend\bin\Release\net5.0\publish\publish\publish\publish\Frontend.deps.json
+C:\hackaton\e-migrant-grupo25_rocket\Frontend\bin\Release\net5.0\publish\publish\publish\publish\Frontend.runtimeconfig.json
+C:\hackaton\e-migrant-grupo25_rocket\Frontend\obj\Release\net5.0\Razor\Pages\Areas\Identity\Pages\Account\Login.cshtml.g.cs
+C:\hackaton\e-migrant-grupo25_rocket\Frontend\obj\Release\net5.0\Razor\Pages\Areas\Identity\Pages\Account\Logout.cshtml.g.cs
+C:\hackaton\e-migrant-grupo25_rocket\Frontend\obj\Release\net5.0\Razor\Pages\Areas\Identity\Pages\Account\Register.cshtml.g.cs
+C:\hackaton\e-migrant-grupo25_rocket\Frontend\obj\Release\net5.0\Razor\Pages\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
+C:\hackaton\e-migrant-grupo25_rocket\Frontend\obj\Release\net5.0\Razor\Pages\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
+C:\hackaton\e-migrant-grupo25_rocket\Frontend\obj\Release\net5.0\Razor\Pages\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+C:\hackaton\e-migrant-grupo25_rocket\Frontend\obj\Release\net5.0\Razor\Pages\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+C:\hackaton\e-migrant-grupo25_rocket\Frontend\obj\Release\net5.0\Razor\Pages\Shared\_LoginPartial.cshtml.g.cs

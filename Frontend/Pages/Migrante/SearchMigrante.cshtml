@@ -1,0 +1,54 @@
+﻿@page 
+@model MyApp.Namespace.SearchMigranteModel
+@{
+}
+<h2>Consulta Informacion Personal</h2>
+<small>
+</small>
+
+
+<form method="get">
+    <div class="input-group">
+        <input class="form-control" asp-for="SearchTerm" />
+        <div class="input-group-append">
+            <button type="submit" class="btn btn-dark">Buscar</button>
+        </div>
+    </div>
+</form>
+
+
+<table style="width:100%">
+  
+  @foreach (var lista in Model.Migrantes)
+  {
+      try{
+            @if(Model.migrante.Id == lista.Id)
+            {
+                <tr>
+                <th>Id</th>  
+                <th>Nombre</th>
+                <th>Apellidos</th>     
+                <th>Detalles</th>     
+                <th>Actualizar</th>     
+            </tr>
+
+            <tr>
+                    <td>@lista.Documento</td>
+                    <td>@lista.Nombre</td>
+                    <td>@lista.Apellidos</td>   
+                    @*<td><a class="btn btn-dark" asp-page="./DetailsMigrante" asp-route-id="@migrante.Id"><i class="fas fa-info"></i></a></td>*@                
+                    <td><a  asp-page="./DetailsMigrante" asp-route-id="@lista.Id"><i class="fas fa-info"></i></a></td>    
+                    <td><a class="btn btn-dark" asp-page="./EditMigrante" asp-route-id="@lista.Id"><i class="fas fa-edit"></i></a></td>
+                        
+                @* <td><a class="btn btn-dark" asp-page="./DeleteMigrante" asp-route-id="@migrante.Id"><i class="fas fa-trash-alt"></i></a></td>
+                        
+                    @* <td><a href="http://www.google.com" target="_blank">google</a></td> *@
+            </tr>
+
+            }      
+        }catch{
+
+        }     
+    }
+
+</table>

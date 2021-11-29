@@ -27,6 +27,14 @@ namespace Frontend
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
+            /*services.AddRazorPages(options =>
+            {
+                options.Conventions.AuthorizePage("/ListMigrante");
+                //options.Conventions.AuthorizeFolder("/Private");
+                //options.Conventions.AllowAnonymousToPage("/Private/PublicPage");
+                options.Conventions.AllowAnonymousToPage("/Index");
+                //options.Conventions.AllowAnonymousToFolder("/Private/PublicPages");
+            });*/
             services.AddScoped<IRepositorioMigrante,RepositorioMigrante>();
             services.AddScoped<IRepositorioEntidad,RepositorioEntidad>();
             services.AddScoped<IRepositorioServicio,RepositorioServicio>();
@@ -50,6 +58,7 @@ namespace Frontend
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
+            app.UseAuthentication();
 
             app.UseRouting();
 

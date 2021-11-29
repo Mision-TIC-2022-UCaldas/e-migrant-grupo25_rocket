@@ -22,7 +22,14 @@ namespace MyApp.Namespace
 
         public void OnGet(int id)
         {
-            migrante = _repo.GetMigrante(id);
+            try{
+                migrante = _repo.GetMigrante(id);
+            }
+            catch{
+
+            }
+            
         }
+       
     }
 }

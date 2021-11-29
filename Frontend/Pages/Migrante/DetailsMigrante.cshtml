@@ -3,9 +3,10 @@
 @{
     
 }
-<h1>Detalle de Informacion Personal</h1>
+<h3>Detalle de Informacion Personal</h3>
 <small>
 </small>
+<a class="btn btn-dark" asp-page="./EditMigrante"><i class="fas fa-edit"></i></a>
 <div>
     <div class="row">
         <dt class="col-md-2">
@@ -33,19 +34,24 @@
     </div>   
     <div class="row">
         <dt class="col-md-2">
-            @switch (Model.migrante.TipoDocumento)
+            @if(Model.migrante.Documento != null)
             {
-                case 1:<a>Cedula de ciudadania</a>
-                break;             
-                case 2:<a>Cedula de Extranjeria</a>
-                break;
-                case 3:<a>Tarjeta de Identidad</a>
-                break;
-                case 4:<a>Pasaporte</a>
-                break;
-                case 5:<a>Permiso Especial de Permanencia</a>
-                break;                                              
-            }            
+                @switch (Model.migrante.TipoDocumento)
+                {
+                    case 1:<a>Cedula de ciudadania</a>
+                    break;             
+                    case 2:<a>Cedula de Extranjeria</a>
+                    break;
+                    case 3:<a>Tarjeta de Identidad</a>
+                    break;
+                    case 4:<a>Pasaporte</a>
+                    break;
+                    case 5:<a>Permiso Especial de Permanencia</a>
+                    break;                                              
+                }
+
+            }
+                        
         </dt>
         <dd class="col-md-10">
             @Html.DisplayFor(model => model.migrante.Documento)
@@ -108,5 +114,5 @@
         </dd>
     </div>    
 </div>
-<div><a class="btn btn-dark" asp-page="./ListMigrante"><i class="fas fa-angle-double-left"></i></a>
+<div><a class="btn btn-dark" asp-page="./SearchMigrante"><i class="fas fa-angle-double-left"></i></a>
 </div>
